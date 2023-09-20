@@ -22,8 +22,6 @@ export default function Topbar() {
 
       <div className="topbarIcons"></div>
 
-
-
 </div>
     </div>
   )
