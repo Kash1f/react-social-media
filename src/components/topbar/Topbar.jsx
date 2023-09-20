@@ -15,12 +15,16 @@ export default function Topbar() {
     </div>
     </div>
 
+    <div className="topbarRight">
+      <span className="topbarLink">Homepage</span>
+      <span className="topbarLink">Timeline</span>
+      </div>
+
+      <div className="topbarIcons"></div>
 
 
-   
-    <div className="topbarRight"></div>
 
-
+</div>
     </div>
   )
 }
