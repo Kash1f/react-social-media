@@ -3,5 +3,69 @@
     width: 100%;
     background-color: #1877f2;
     display: flex;
+    align-items: center;
+    position: sticky;  /*position sticky bcz it will stay on top when scrolling the page*/
+    top: 0;
 }
 
+
+.topbarLeft{
+    flex: 3;
+    /*dividing the container into 12 parts, 3 left, 5 center, 4 right */
+
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarCenter{
+    flex: 5;
+  
+}
+
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.searchInput{
+    border: none;
+    width: 70%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarLink{
+    margin: right;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topbarImg{
+    height: 32px;
+    width: 32px;
+}
