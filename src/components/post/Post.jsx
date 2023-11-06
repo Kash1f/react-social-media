@@ -12,6 +12,8 @@ export default function Post({ post }) {
     setIsLiked(!isLiked)
   }
   return (
+
+    //creating post
     <div className="post">
       <div className="postWrapper">
         <div className="postTop">
