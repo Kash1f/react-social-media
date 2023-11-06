@@ -8,6 +8,8 @@ export default function Feed() {
     <div className="feed">
       <div className="feedWrapper">
         <Share />
+
+        {/*dummy api  */}
         {Posts.map((p) => (
           <Post key={p.id} post={p} />
         ))}
